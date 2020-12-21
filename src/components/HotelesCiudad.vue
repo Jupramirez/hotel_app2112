@@ -40,9 +40,9 @@
                 <th>Nombre Hotel</th>
                 <th>Estrellas</th>
                 <th>Tipo Habitacion</th>
-                <th>Tarifa Media</th>
+                <th>Tarifa Inicial</th>
                 <th>Tarifa Baja</th>
-                <th>Ciudad</th>
+                <th>Tarifa Alta</th>
                 <th>Zona</th>
               </tr>
               <tbody>
@@ -52,7 +52,7 @@
                   <td>{{ dato.tipo_habitacion }}</td>
                   <td>{{ dato.tarifa_inicial }}</td>
                   <td>{{ dato.tarifa_baja }}</td>
-                  <td>{{ dato.ciudad }}</td>
+                  <td>{{ dato.tarifa_alta }}</td>
                   <td>{{ dato.zona }}</td>
                 </tr>
               </tbody>
