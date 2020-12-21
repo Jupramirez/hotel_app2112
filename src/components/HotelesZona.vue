@@ -51,7 +51,6 @@
                 <th>Tarifa Inicial</th>
                 <th>Tarifa Alta</th>
                 <th>Tarifa Baja</th>
-                <th>Ciudad</th>
                 <th>Zona</th>
               </tr>
               <tbody>
@@ -62,7 +61,6 @@
                   <td>{{ dato.tarifa_inicial }}</td>
                   <td>{{ dato.tarifa_alta }}</td>
                   <td>{{ dato.tarifa_baja }}</td>
-                  <td>{{ dato.ciudad }}</td>
                   <td>{{ dato.zona }}</td>
                 </tr>
               </tbody>
@@ -72,7 +70,7 @@
       </table>
     </div>
     <div class="footerZona">
-        <h2>{{hotel_in}}</h2>
+        <h2>MISION TIC 2020</h2>
         
   </div>
   </div>
